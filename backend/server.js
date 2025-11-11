@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://mongo:27017/dockerlearn', {
+mongoose.connect('mongodb+srv://sidharthslal20_db_user:Hm2ef48O69xDRVbV@cluster0.6tewhbl.mongodb.net/?appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
