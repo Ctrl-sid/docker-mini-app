@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/hello')
+    fetch('http://https://docker-mini-app-ockf.onrender.com/api/hello')
       .then(res => res.json())
       .then(data => setMessage(data.message));
   }, []);
